@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="Your M3R Address"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:textAllCaps="true"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- QR Code (Glass Effect) -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_glass"
+            android:padding="24dp"
+            android:layout_marginBottom="32dp">
+
+            <ImageView
+                android:id="@+id/ivQrCode"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:contentDescription="QR Code"
+                android:scaleType="fitCenter"/>
+        </LinearLayout>
+
+        <!-- Address Text (Card) -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CardStyle"
+            android:layout_marginBottom="24dp">
+            
+            <TextView
+                android:id="@+id/tvReceiveAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:fontFamily="monospace"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <Button
+            android:id="@+id/btnCopyReceiveAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copy Address"
+            app:backgroundTint="@null"
+            android:background="@drawable/bg_gradient_primary"
+            app:icon="@drawable/ic_copy"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp"
+            style="@style/PrimaryButton"/>
+
+        <TextView
+            android:text="Share this address to receive M3R coins"
+            android:textColor="@color/text_hint"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:text="Recipient Address"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:textAllCaps="true"
+            android:letterSpacing="0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
+ 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical">
+ 
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/InputStyle"
+                android:hint="Receiver address (Base58)"
+                android:layout_marginEnd="12dp">
+ 
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etToAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:singleLine="true"/>
+            </com.google.android.material.textfield.TextInputLayout>
+ 
+            <Button
+                android:id="@+id/btnScanQr"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="0dp"
+                app:icon="@drawable/ic_copy"
+                app:iconSize="24dp"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                style="@style/PrimaryButton"/>
+        </LinearLayout>
+ 
+        <TextView
+            android:text="Amount (BDT)"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:textAllCaps="true"
+            android:letterSpacing="0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
+ 
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/InputStyle"
+            android:hint="0.00"
+            android:layout_marginBottom="8dp">
+ 
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:inputType="numberDecimal"
+                android:singleLine="true"/>
+        </com.google.android.material.textfield.TextInputLayout>
+ 
+        <TextView
+            android:id="@+id/tvFeeEstimate"
+            android:text="Estimated fee: —"
+            android:textColor="@color/text_hint"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="4dp"/>
+ 
+        <TextView
+            android:text="Memo (optional)"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:textAllCaps="true"
+            android:letterSpacing="0.05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
+ 
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/InputStyle"
+            android:hint="Optional note"
+            android:layout_marginBottom="32dp">
+ 
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etMemo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:singleLine="true"/>
+        </com.google.android.material.textfield.TextInputLayout>
+ 
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp"
+            android:indeterminateTint="@color/accent_cyan"/>
+ 
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send BDT"
+            app:backgroundTint="@null"
+            android:background="@drawable/bg_gradient_primary"
+            style="@style/PrimaryButton"
+            android:layout_marginBottom="24dp"/>
+ 
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardSendResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CardStyle"
+            android:visibility="gone">
+ 
+            <TextView
+                android:id="@+id/tvSendResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:padding="16dp"
+                android:textColor="@color/text_secondary"
+                android:fontFamily="monospace"/>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

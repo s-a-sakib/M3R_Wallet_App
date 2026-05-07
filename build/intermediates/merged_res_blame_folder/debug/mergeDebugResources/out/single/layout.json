@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/dialog_escrow_create.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/dialog_escrow_create.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/fragment_settings.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/fragment_escrow.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/fragment_escrow.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/activity_onboarding.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/item_tx.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/item_tx.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/activity_receive.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/activity_receive.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/dialog_arbiter.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/dialog_arbiter.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/activity_lock.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/activity_lock.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/activity_send.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/activity_send.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/fragment_home.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/fragment_history.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/dialog_create_wallet.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/dialog_create_wallet.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/activity_splash.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/dialog_escrow_action.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/dialog_escrow_action.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/activity_pin_setup.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/activity_pin_setup.xml"
+    },
+    {
+        "merged": "com.m3r.wallet.app-mergeDebugResources-49:/layout/dialog_import_wallet.xml",
+        "source": "com.m3r.wallet.app-main-52:/layout/dialog_import_wallet.xml"
+    }
+]

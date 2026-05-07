@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="20dp">
+
+    <EditText android:id="@+id/etArbiterSeller"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:background="@drawable/bg_input" android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_hint" android:hint="Seller address (Base58)"
+        android:paddingStart="14dp" android:paddingEnd="14dp" android:singleLine="true"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText android:id="@+id/etArbiterMemo"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:background="@drawable/bg_input" android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_hint" android:hint="Memo / dispute reason (optional)"
+        android:paddingStart="14dp" android:paddingEnd="14dp" android:singleLine="true"/>
+</LinearLayout>

@@ -1,0 +1,53 @@
+com.m3r.wallet.app-coordinatorlayout-1.1.0-0 /home/noob_coder/.gradle/caches/transforms-3/0af0479384b1491118a13a6ca1a3b575/transformed/coordinatorlayout-1.1.0/res
+com.m3r.wallet.app-biometric-1.1.0-1 /home/noob_coder/.gradle/caches/transforms-3/1483eded1f9e8aef39484ab71f682646/transformed/biometric-1.1.0/res
+com.m3r.wallet.app-jetified-lifecycle-runtime-ktx-2.6.2-2 /home/noob_coder/.gradle/caches/transforms-3/19401be652097774916087c10be14905/transformed/jetified-lifecycle-runtime-ktx-2.6.2/res
+com.m3r.wallet.app-navigation-ui-2.7.7-3 /home/noob_coder/.gradle/caches/transforms-3/24d159d60e8bd1575effa9f577758e32/transformed/navigation-ui-2.7.7/res
+com.m3r.wallet.app-jetified-customview-poolingcontainer-1.0.0-4 /home/noob_coder/.gradle/caches/transforms-3/261f5e343c1d9c000580985682702e3d/transformed/jetified-customview-poolingcontainer-1.0.0/res
+com.m3r.wallet.app-jetified-shimmer-0.5.0-5 /home/noob_coder/.gradle/caches/transforms-3/276436ba8e6c642c0071a916c1e77820/transformed/jetified-shimmer-0.5.0/res
+com.m3r.wallet.app-jetified-lifecycle-viewmodel-ktx-2.6.2-6 /home/noob_coder/.gradle/caches/transforms-3/2e96581645e8c12af1beeb1e82fe8b82/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/res
+com.m3r.wallet.app-fragment-1.6.2-7 /home/noob_coder/.gradle/caches/transforms-3/33a19ce91abef71fed938244e0792f29/transformed/fragment-1.6.2/res
+com.m3r.wallet.app-jetified-window-1.0.0-8 /home/noob_coder/.gradle/caches/transforms-3/35ca662c6f8203ee03137d19a3c136a1/transformed/jetified-window-1.0.0/res
+com.m3r.wallet.app-jetified-savedstate-1.2.1-9 /home/noob_coder/.gradle/caches/transforms-3/3a3e55237acaf42e76fb614483a56f2b/transformed/jetified-savedstate-1.2.1/res
+com.m3r.wallet.app-navigation-fragment-2.7.7-10 /home/noob_coder/.gradle/caches/transforms-3/3c82e5c327416d139094f1b4888a626a/transformed/navigation-fragment-2.7.7/res
+com.m3r.wallet.app-jetified-lifecycle-livedata-core-ktx-2.6.2-11 /home/noob_coder/.gradle/caches/transforms-3/4aa6d1d5772e4d2f302407398c14f1d8/transformed/jetified-lifecycle-livedata-core-ktx-2.6.2/res
+com.m3r.wallet.app-jetified-viewpager2-1.1.0-beta02-12 /home/noob_coder/.gradle/caches/transforms-3/4ea64bf47150c44f404e8826875d3dfe/transformed/jetified-viewpager2-1.1.0-beta02/res
+com.m3r.wallet.app-jetified-lifecycle-process-2.6.2-13 /home/noob_coder/.gradle/caches/transforms-3/54cc7886cc943ad374a65879c9657b10/transformed/jetified-lifecycle-process-2.6.2/res
+com.m3r.wallet.app-lifecycle-livedata-core-2.6.2-14 /home/noob_coder/.gradle/caches/transforms-3/56dc6783faee0eb0d58e35f3c190a490/transformed/lifecycle-livedata-core-2.6.2/res
+com.m3r.wallet.app-core-runtime-2.2.0-15 /home/noob_coder/.gradle/caches/transforms-3/57946347f7843fe950876a5053ea58e8/transformed/core-runtime-2.2.0/res
+com.m3r.wallet.app-cardview-1.0.0-16 /home/noob_coder/.gradle/caches/transforms-3/5d976382a7af5fa42b6b63a8bff28979/transformed/cardview-1.0.0/res
+com.m3r.wallet.app-jetified-core-ktx-1.13.0-17 /home/noob_coder/.gradle/caches/transforms-3/60b07e77af2e2c47d73ca9cdd769a26e/transformed/jetified-core-ktx-1.13.0/res
+com.m3r.wallet.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-18 /home/noob_coder/.gradle/caches/transforms-3/6d3c18055d1e6ccfdce9f3ae5b35f2f6/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/res
+com.m3r.wallet.app-jetified-security-crypto-1.1.0-alpha06-19 /home/noob_coder/.gradle/caches/transforms-3/6daa78998bdb1925d47e085c9ed5d046/transformed/jetified-security-crypto-1.1.0-alpha06/res
+com.m3r.wallet.app-slidingpanelayout-1.2.0-20 /home/noob_coder/.gradle/caches/transforms-3/724ed8144b45b9da8552788d7a44d5b5/transformed/slidingpanelayout-1.2.0/res
+com.m3r.wallet.app-jetified-profileinstaller-1.3.1-21 /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/res
+com.m3r.wallet.app-lifecycle-runtime-2.6.2-22 /home/noob_coder/.gradle/caches/transforms-3/77b4632b79191e6f542071df29b1ea58/transformed/lifecycle-runtime-2.6.2/res
+com.m3r.wallet.app-constraintlayout-2.1.4-23 /home/noob_coder/.gradle/caches/transforms-3/87addd2f9ef0ee0ee44e96c1653f474c/transformed/constraintlayout-2.1.4/res
+com.m3r.wallet.app-jetified-emoji2-views-helper-1.3.0-24 /home/noob_coder/.gradle/caches/transforms-3/89340890a0f969966ddd49fcb5f96e3c/transformed/jetified-emoji2-views-helper-1.3.0/res
+com.m3r.wallet.app-core-1.13.0-25 /home/noob_coder/.gradle/caches/transforms-3/8d0e5e68ad1b39c3a6c77cf8300a05fd/transformed/core-1.13.0/res
+com.m3r.wallet.app-jetified-emoji2-1.3.0-26 /home/noob_coder/.gradle/caches/transforms-3/8d2ad8091378c8b4bcea4e402e15bbfc/transformed/jetified-emoji2-1.3.0/res
+com.m3r.wallet.app-lifecycle-viewmodel-2.6.2-27 /home/noob_coder/.gradle/caches/transforms-3/8fbc3ab46ff9811e34c4fa6c374a00d5/transformed/lifecycle-viewmodel-2.6.2/res
+com.m3r.wallet.app-jetified-activity-1.8.0-28 /home/noob_coder/.gradle/caches/transforms-3/90c60dd67062bd5139311e333b71145f/transformed/jetified-activity-1.8.0/res
+com.m3r.wallet.app-material-1.12.0-29 /home/noob_coder/.gradle/caches/transforms-3/956569e4bbcbe4b251454764e02f8637/transformed/material-1.12.0/res
+com.m3r.wallet.app-jetified-core-splashscreen-1.0.1-30 /home/noob_coder/.gradle/caches/transforms-3/98bf7f55668df214b8649e51f16f0618/transformed/jetified-core-splashscreen-1.0.1/res
+com.m3r.wallet.app-appcompat-1.7.0-31 /home/noob_coder/.gradle/caches/transforms-3/a9ce92ade41b649174d2a73e92f203db/transformed/appcompat-1.7.0/res
+com.m3r.wallet.app-jetified-fragment-ktx-1.6.2-32 /home/noob_coder/.gradle/caches/transforms-3/aa0cffaf3ba556f97e1c9a95536ba084/transformed/jetified-fragment-ktx-1.6.2/res
+com.m3r.wallet.app-transition-1.5.0-33 /home/noob_coder/.gradle/caches/transforms-3/ada278447f7b5b9840834ec08ca3f3e1/transformed/transition-1.5.0/res
+com.m3r.wallet.app-recyclerview-1.3.2-34 /home/noob_coder/.gradle/caches/transforms-3/ae7c0efda1a65d73bac9b4c9bead5fc5/transformed/recyclerview-1.3.2/res
+com.m3r.wallet.app-jetified-zxing-android-embedded-4.3.0-35 /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/res
+com.m3r.wallet.app-jetified-appcompat-resources-1.7.0-36 /home/noob_coder/.gradle/caches/transforms-3/ba1aa13ecdee2782594c73be501d57a6/transformed/jetified-appcompat-resources-1.7.0/res
+com.m3r.wallet.app-navigation-common-2.7.7-37 /home/noob_coder/.gradle/caches/transforms-3/c5825d7c4a912eea865746dd049cf04b/transformed/navigation-common-2.7.7/res
+com.m3r.wallet.app-jetified-savedstate-ktx-1.2.1-38 /home/noob_coder/.gradle/caches/transforms-3/c806a75aeefb182f6c2a7b6d5040a690/transformed/jetified-savedstate-ktx-1.2.1/res
+com.m3r.wallet.app-lifecycle-livedata-2.6.2-39 /home/noob_coder/.gradle/caches/transforms-3/d242578d94d74c7ced4c73a1ff97a8d7/transformed/lifecycle-livedata-2.6.2/res
+com.m3r.wallet.app-jetified-activity-ktx-1.8.0-40 /home/noob_coder/.gradle/caches/transforms-3/e74dd99724cfae4bb86640a71518ddfb/transformed/jetified-activity-ktx-1.8.0/res
+com.m3r.wallet.app-navigation-runtime-2.7.7-41 /home/noob_coder/.gradle/caches/transforms-3/f153493534886f7ad9f44de80cc9c6f2/transformed/navigation-runtime-2.7.7/res
+com.m3r.wallet.app-drawerlayout-1.1.1-42 /home/noob_coder/.gradle/caches/transforms-3/f5742c9f167c9de3423e86f68b2fa141/transformed/drawerlayout-1.1.1/res
+com.m3r.wallet.app-swiperefreshlayout-1.1.0-43 /home/noob_coder/.gradle/caches/transforms-3/f7bc8cdcfd24c7ea698e3e23fb93f17b/transformed/swiperefreshlayout-1.1.0/res
+com.m3r.wallet.app-jetified-annotation-experimental-1.4.0-44 /home/noob_coder/.gradle/caches/transforms-3/f826e78d7bd480f9c1fdc19a1ef6f7fa/transformed/jetified-annotation-experimental-1.4.0/res
+com.m3r.wallet.app-jetified-startup-runtime-1.1.1-45 /home/noob_coder/.gradle/caches/transforms-3/f98f388a29837a9685a9f8b5cf1e3c6c/transformed/jetified-startup-runtime-1.1.1/res
+com.m3r.wallet.app-pngs-46 /home/noob_coder/Desktop/M3RWallet (Copy 2)/app/build/generated/res/pngs/debug
+com.m3r.wallet.app-resValues-47 /home/noob_coder/Desktop/M3RWallet (Copy 2)/app/build/generated/res/resValues/debug
+com.m3r.wallet.app-packageDebugResources-48 /home/noob_coder/Desktop/M3RWallet (Copy 2)/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.m3r.wallet.app-packageDebugResources-49 /home/noob_coder/Desktop/M3RWallet (Copy 2)/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.m3r.wallet.app-debug-50 /home/noob_coder/Desktop/M3RWallet (Copy 2)/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.m3r.wallet.app-debug-51 /home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/debug/res
+com.m3r.wallet.app-main-52 /home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/res

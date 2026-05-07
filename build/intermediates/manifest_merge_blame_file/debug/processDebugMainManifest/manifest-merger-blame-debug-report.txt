@@ -1,0 +1,273 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.m3r.wallet"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:6:5-65
+12-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+13-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:7:5-72
+13-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:7:22-69
+14
+15    <uses-feature
+15-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:8:5-85
+16        android:name="android.hardware.camera"
+16-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:8:19-57
+17        android:required="false" />
+17-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:8:58-82
+18    <uses-feature
+18-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:9:5-95
+19        android:name="android.hardware.camera.autofocus"
+19-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:9:19-67
+20        android:required="false" />
+20-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:9:68-92
+21
+22    <!-- suppress DeprecatedClassUsageInspection -->
+23    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+23-->[androidx.biometric:biometric:1.1.0] /home/noob_coder/.gradle/caches/transforms-3/1483eded1f9e8aef39484ab71f682646/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+23-->[androidx.biometric:biometric:1.1.0] /home/noob_coder/.gradle/caches/transforms-3/1483eded1f9e8aef39484ab71f682646/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+24
+25    <permission
+25-->[androidx.core:core:1.13.0] /home/noob_coder/.gradle/caches/transforms-3/8d0e5e68ad1b39c3a6c77cf8300a05fd/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+26        android:name="com.m3r.wallet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.13.0] /home/noob_coder/.gradle/caches/transforms-3/8d0e5e68ad1b39c3a6c77cf8300a05fd/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.13.0] /home/noob_coder/.gradle/caches/transforms-3/8d0e5e68ad1b39c3a6c77cf8300a05fd/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.m3r.wallet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.13.0] /home/noob_coder/.gradle/caches/transforms-3/8d0e5e68ad1b39c3a6c77cf8300a05fd/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.13.0] /home/noob_coder/.gradle/caches/transforms-3/8d0e5e68ad1b39c3a6c77cf8300a05fd/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+30
+31    <uses-feature
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+32        android:name="android.hardware.camera.front"
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+33        android:required="false" />
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+34    <uses-feature
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+35        android:name="android.hardware.camera.flash"
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+36        android:required="false" />
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+37    <uses-feature
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+38        android:name="android.hardware.screen.landscape"
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+39        android:required="false" />
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+40    <uses-feature
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+41        android:name="android.hardware.wifi"
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+42        android:required="false" />
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+43
+44    <application
+44-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:11:5-73:19
+45        android:name="com.m3r.wallet.M3RWalletApp"
+45-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:12:9-37
+46        android:allowBackup="false"
+46-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:13:9-36
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.13.0] /home/noob_coder/.gradle/caches/transforms-3/8d0e5e68ad1b39c3a6c77cf8300a05fd/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:extractNativeLibs="false"
+50        android:icon="@mipmap/ic_launcher"
+50-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:14:9-43
+51        android:label="@string/app_name"
+51-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:15:9-41
+52        android:networkSecurityConfig="@xml/network_security_config"
+52-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:19:9-69
+53        android:roundIcon="@mipmap/ic_launcher_round"
+53-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:16:9-54
+54        android:supportsRtl="true"
+54-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:17:9-35
+55        android:theme="@style/Theme.M3RWallet" >
+55-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:18:9-47
+56
+57        <!-- Splash / Onboarding -->
+58        <activity
+58-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:22:9-30:20
+59            android:name="com.m3r.wallet.ui.onboarding.SplashActivity"
+59-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:23:13-57
+60            android:exported="true"
+60-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:24:13-36
+61            android:theme="@style/Theme.M3RWallet.Starting" >
+61-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:25:13-60
+62            <intent-filter>
+62-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:26:13-29:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:27:17-69
+63-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:27:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:28:17-77
+65-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:28:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:32:9-34:40
+69            android:name="com.m3r.wallet.ui.onboarding.OnboardingActivity"
+69-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:33:13-61
+70            android:exported="false" />
+70-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:34:13-37
+71
+72        <!-- Lock / PIN Setup -->
+73        <activity
+73-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:37:9-40:54
+74            android:name="com.m3r.wallet.ui.lock.LockActivity"
+74-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:38:13-49
+75            android:exported="false"
+75-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:39:13-37
+76            android:theme="@style/Theme.M3RWallet" />
+76-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:40:13-51
+77        <activity
+77-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:42:9-45:54
+78            android:name="com.m3r.wallet.ui.lock.PinSetupActivity"
+78-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:43:13-53
+79            android:exported="false"
+79-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:44:13-37
+80            android:theme="@style/Theme.M3RWallet" />
+80-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:45:13-51
+81
+82        <!-- Main wallet activity -->
+83        <activity
+83-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:48:9-51:58
+84            android:name="com.m3r.wallet.ui.MainActivity"
+84-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:49:13-44
+85            android:exported="false"
+85-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:50:13-37
+86            android:windowSoftInputMode="adjustResize" />
+86-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:51:13-55
+87
+88        <!-- Send -->
+89        <activity
+89-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:54:9-58:58
+90            android:name="com.m3r.wallet.ui.send.SendActivity"
+90-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:55:13-49
+91            android:exported="false"
+91-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:56:13-37
+92            android:theme="@style/Theme.M3RWallet.WithActionBar"
+92-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:57:13-65
+93            android:windowSoftInputMode="adjustResize" />
+93-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:58:13-55
+94
+95        <!-- Receive -->
+96        <activity
+96-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:61:9-64:68
+97            android:name="com.m3r.wallet.ui.receive.ReceiveActivity"
+97-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:62:13-55
+98            android:exported="false"
+98-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:63:13-37
+99            android:theme="@style/Theme.M3RWallet.WithActionBar" />
+99-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:64:13-65
+100
+101        <!-- ZXing QR Scanner -->
+102        <activity
+102-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:67:9-71:57
+103            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+103-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:68:13-74
+104            android:clearTaskOnLaunch="true"
+104-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+105            android:exported="false"
+105-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:70:13-37
+106            android:screenOrientation="portrait"
+106-->/home/noob_coder/Desktop/M3RWallet (Copy 2)/app/src/main/AndroidManifest.xml:69:13-49
+107            android:stateNotNeeded="true"
+107-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+108            android:theme="@style/zxing_CaptureTheme"
+108-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+109            android:windowSoftInputMode="stateAlwaysHidden" />
+109-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/noob_coder/.gradle/caches/transforms-3/aecb72407a4b54120e422afb0063baab/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+110
+111        <provider
+111-->[androidx.emoji2:emoji2:1.3.0] /home/noob_coder/.gradle/caches/transforms-3/8d2ad8091378c8b4bcea4e402e15bbfc/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.emoji2:emoji2:1.3.0] /home/noob_coder/.gradle/caches/transforms-3/8d2ad8091378c8b4bcea4e402e15bbfc/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+113            android:authorities="com.m3r.wallet.androidx-startup"
+113-->[androidx.emoji2:emoji2:1.3.0] /home/noob_coder/.gradle/caches/transforms-3/8d2ad8091378c8b4bcea4e402e15bbfc/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+114            android:exported="false" >
+114-->[androidx.emoji2:emoji2:1.3.0] /home/noob_coder/.gradle/caches/transforms-3/8d2ad8091378c8b4bcea4e402e15bbfc/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+115            <meta-data
+115-->[androidx.emoji2:emoji2:1.3.0] /home/noob_coder/.gradle/caches/transforms-3/8d2ad8091378c8b4bcea4e402e15bbfc/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+116-->[androidx.emoji2:emoji2:1.3.0] /home/noob_coder/.gradle/caches/transforms-3/8d2ad8091378c8b4bcea4e402e15bbfc/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+117                android:value="androidx.startup" />
+117-->[androidx.emoji2:emoji2:1.3.0] /home/noob_coder/.gradle/caches/transforms-3/8d2ad8091378c8b4bcea4e402e15bbfc/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/noob_coder/.gradle/caches/transforms-3/54cc7886cc943ad374a65879c9657b10/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/noob_coder/.gradle/caches/transforms-3/54cc7886cc943ad374a65879c9657b10/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+120                android:value="androidx.startup" />
+120-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/noob_coder/.gradle/caches/transforms-3/54cc7886cc943ad374a65879c9657b10/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+121            <meta-data
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+122                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+123                android:value="androidx.startup" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+124        </provider>
+125
+126        <uses-library
+126-->[androidx.window:window:1.0.0] /home/noob_coder/.gradle/caches/transforms-3/35ca662c6f8203ee03137d19a3c136a1/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+127            android:name="androidx.window.extensions"
+127-->[androidx.window:window:1.0.0] /home/noob_coder/.gradle/caches/transforms-3/35ca662c6f8203ee03137d19a3c136a1/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+128            android:required="false" />
+128-->[androidx.window:window:1.0.0] /home/noob_coder/.gradle/caches/transforms-3/35ca662c6f8203ee03137d19a3c136a1/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+129        <uses-library
+129-->[androidx.window:window:1.0.0] /home/noob_coder/.gradle/caches/transforms-3/35ca662c6f8203ee03137d19a3c136a1/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+130            android:name="androidx.window.sidecar"
+130-->[androidx.window:window:1.0.0] /home/noob_coder/.gradle/caches/transforms-3/35ca662c6f8203ee03137d19a3c136a1/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+131            android:required="false" />
+131-->[androidx.window:window:1.0.0] /home/noob_coder/.gradle/caches/transforms-3/35ca662c6f8203ee03137d19a3c136a1/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+132
+133        <receiver
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+134            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+135            android:directBootAware="false"
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+136            android:enabled="true"
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+137            android:exported="true"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+138            android:permission="android.permission.DUMP" >
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+139            <intent-filter>
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+140                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+141            </intent-filter>
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+143                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+144            </intent-filter>
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+146                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+147            </intent-filter>
+148            <intent-filter>
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+149                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/767e6965deae954dbafd94f91a2fa6ae/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+150            </intent-filter>
+151        </receiver>
+152    </application>
+153
+154</manifest>
